@@ -1,0 +1,216 @@
+main
+html {
+    font-size: 22px ;
+}
+
+
+body  {
+    /*background-image: url(Background.jpeg); /* adds backgroung image to page linked usings url */
+   /* background-repeat: no-repeat; /*stops img from duplicating to fill page */
+   /* background-size: 100%; /* makes image fill page */
+   background: linear-gradient(135deg, #6E260E	, #DAA06D);;
+   color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    opacity: 1; 
+    border: 0;
+
+}
+
+header{
+    display: flex;
+    
+}
+#logo{
+    height: 30px;
+}
+
+#Name{
+    text-align: center;
+}
+#navbar{
+    padding: 15px;
+    margin: px;
+    background-color: beige;
+}
+
+#search{
+    border-radius: 10px;
+    size: 15px;
+    color: aquamarine;
+    
+}
+
+
+#pagename{
+    border-style: dotted;
+    text-align: center;
+    text-decoration: underline dotted black 6px; 
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*can recieve similar results with outline element or apply both at the same time and you can distance them with Outline-offset element*/
+}
+
+#Banner{
+   
+    border-radius: 15px;
+
+}    
+
+#Bannerd{
+    text-align: center;
+}
+
+
+
+table , th , td {
+    border: 2px solid;
+    margin-left: auto; /* can be used for centering text along with margin-right*/
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+tr:hover{
+    background-color: lightgoldenrodyellow;
+}
+
+#tests{
+background-color: black;
+color: white;
+padding: 10px;
+}
+
+iframe{
+    border-radius: 15px;
+    width: 50%;
+    height: 600px;
+}
+
+.iframediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   background-color: rgb(96, 62, 62);
+   text-align: center;
+   border-radius: 15px;
+}
+
+#color{
+    height: 80px;
+    width: 80px;
+}
+
+button:hover{
+    background-color: lightgoldenrodyellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+#footer {
+    background-color: rgb(191, 176, 153);
+    padding: 8px;
+    margin-top:32px ;
+    text-align: center;
+    width: 100%;
+}
+
+#footer-links{
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+#abbr{
+    text-decoration: none;
+}
+
+#Verses{
+    padding: 10px;
+    display: inline-block;
+   background-color: #4a2511;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgb(183, 157, 121), 5px 5px 15px rgba(0, 0, 0, 0.2);
+   /* background: transparent; */ 
+    cursor: pointer;
+    margin: 10px;
+}
+
+#Verseimg{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#Features{
+    display: inline;
+    text-align: center;
+    margin-left: 105px;
+}
+
+#Discussionimg{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#Discussion{
+    border: 0;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: #80471c;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgb(182, 167, 147), 5px 5px 15px rgba(232, 170, 150, 0.848);
+   /* background: transparent; */ 
+    cursor: pointer;
+}
+
+#Prayerimg{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+#Prayer{
+    border: 0;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: #6c3b1c;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgb(182, 167, 147), 5px 5px 15px rgba(232, 170, 150, 0.848);
+   /* background: transparent; */ 
+    cursor: pointer;
+}
+
+span{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+#bible{
+    text-align: center;
+    text-decoration: underline solid;
+}
+
+#forms{
+    text-align: center;
+}
+
+#members{
+    text-align: center;
+}
